@@ -3,7 +3,7 @@
  
  
  
-	<ThingDef Name="BonobonPawn" Abstract="True">
+	<ThingDef Name="BasePawn" Abstract="True">
 		<eType>Pawn </eType>
 		<thingClass>Pawn</thingClass>
 		<category>Pawn</category>
@@ -23,7 +23,7 @@
 		<drawGUIOverlay>true</drawGUIOverlay>
 	</ThingDef>
 <!-- Edit this bit -->
-	<ThingDef ParentName="Race">
+	<ThingDef ParentName="BaseRace">
 		<defName>Bonobon</defName>
 		<label>Bonobon</label>
 		<maxHealth>125</maxHealth>
