@@ -59,7 +59,6 @@
             </li>
 
         </verbs>
-		<targetHitChanceFactor>0.5</targetHitChanceFactor>
 		<race>
 			<thinkTree>Humanlike</thinkTree>
             <intelligence>Humanlike</intelligence>
