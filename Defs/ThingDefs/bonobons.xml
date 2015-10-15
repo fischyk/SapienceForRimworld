@@ -29,7 +29,7 @@
             <drawGUIOverlay>true</drawGUIOverlay>
         </ThingDef>
 <!-- Edit this bit -->
-	<ThingDef ParentName="BasePawn" Abstract="True">
+	<ThingDef ParentName="BasePawn">
 		<defName>Bonobon</defName>
 		<label>Bonobon</label>
 		<description>After their great ape ancestors hijacked a spaceship to escape a human science lab, the Bonobons have spread across the known universe, settling down primatively.</description>
