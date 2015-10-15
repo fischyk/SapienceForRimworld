@@ -26,21 +26,123 @@
 	<ThingDef Name="BaseApe" Abstract="true" ParentName="BasePawn">
 		<defName>Bonobon</defName>
 		<label>Bonobon</label>
-		<maxHealth>125</maxHealth>
 		<overdraw>true</overdraw>
-		<sunShadowInfo>
-			<baseWidth>0.5</baseWidth>
-			<baseHeight>0.8</baseHeight>
-			<tallness>0.8</tallness>
-		</sunShadowInfo>
+        <statBases>
+            <MarketValue>1750</MarketValue>
+            <MoveSpeed>4.61</MoveSpeed>
+            <Flammability>1.0</Flammability>
+            <ComfyTemperatureMin>12</ComfyTemperatureMin>
+            <ComfyTemperatureMax>32</ComfyTemperatureMax>
+            <LeatherAmount>20</LeatherAmount>
+        </statBases>
+        <verbs>
+            <li>
+                <verbClass>Verb_MeleeAttack</verbClass>
+                <defaultCooldownTicks>100</defaultCooldownTicks>
+                <meleeDamageBaseAmount>5</meleeDamageBaseAmount>
+                <meleeDamageDef>Blunt</meleeDamageDef>
+                <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <verbClass>Verb_MeleeAttack</verbClass>
+                <defaultCooldownTicks>100</defaultCooldownTicks>
+                <meleeDamageBaseAmount>5</meleeDamageBaseAmount>
+                <meleeDamageDef>Blunt</meleeDamageDef>
+                <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+            </li>
+        </verbs>
 		<targetHitChanceFactor>0.5</targetHitChanceFactor>
 		<race>
 			<thinkTree>Humanoid</thinkTree>
+            <intelligence>Humanlike</intelligence>
 			<walkSpeed>1.7</walkSpeed>
 			<meleeDamage>20</meleeDamage>
 			<hungerThreshold>180</hungerThreshold>
-			<bodySize>1.1</bodySize>
-			      <diet>Omnivorous</diet>
+            <diet>Omnivorous</diet>
+            <makesFootprints>true</makesFootprints>
+            <isFlesh>true</isFlesh>
+            <lifeExpectancy>150</lifeExpectancy>
+            <leatherColor>(211,194,143)</leatherColor>
+            <leatherCommonalityFactor>0.01</leatherCommonalityFactor>
+            <leatherInsulation>0.95</leatherInsulation>
+            <leatherMarketValue>15</leatherMarketValue>
+            <nameCategory>BonobonStandard</nameCategory>
+            <minFoodPreferability>DesperateOnly</minFoodPreferability>
+            <body>Bonobon</body>
+            <baseBodySize>1.4</baseBodySize>
+            <gestationPeriodDays>110</gestationPeriodDays>
+            <litterSizeCurve>
+                <points>
+                    <li>(0.5, 0)</li>
+                    <li>(1, 1)</li>
+                    <li>(1.01, 0.02)</li>
+                    <li>(3.5, 0)</li>
+                </points>
+            </litterSizeCurve>
+            <lifeStageAges>
+                <li>
+                    <def>BonobonBaby</def>
+                    <minAge>0</minAge>
+                </li>
+                <li>
+                    <def>BonobonToddler</def>
+                    <minAge>5</minAge>
+                </li>
+                <li>
+                    <def>BonobonChild</def>
+                    <minAge>12</minAge>
+                </li>
+                <li>
+                    <def>BonobonTeenager</def>
+                    <minAge>16</minAge>
+                </li>
+                <li>
+                    <def>BonobonAdult</def>
+                    <minAge>28</minAge>
+                </li>
+            </lifeStageAges>
+            <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+            <specialshadowData>
+                <volume>(0.3, 0.8, 0.4)</volume>
+                <offset>(0,0,-0.3)</offset>
+            </specialshadowData>
+            <ageGenerationCurve>
+                <points>
+                    <li>(14,0)</li>
+                    <li>(16,100)</li>
+                    <li>(50,100)</li>
+                    <li>(60,30)</li>
+                    <li>(70,18)</li>
+                    <li>(80,10)</li>
+                    <li>(90,3)</li>
+                    <li>(100,0)</li>
+                </points>
+            </ageGenerationCurve>
+            <hediffGiverSets>
+                <li>OrganicStandard</li>
+            </hediffGiverSets>
+        </race>
+        <recipes>
+            <li>InstallPowerClaw</li>
+            <li>InstallScytherBlade</li>
+            <li>InstallBionicEye</li>
+            <li>InstallBionicArm</li>
+            <li>InstallBionicLeg</li>
+            <li>InstallSimpleProstheticArm</li>
+            <li>InstallSimpleProstheticLeg</li>
+            <li>InstallPegLeg</li>
+            <li>InstallDenture</li>
+            <li>InstallJoywire</li>
+            <li>InstallPainstopper</li>
+            <li>InstallNaturalHeart</li>
+            <li>InstallNaturalLung</li>
+            <li>InstallNaturalKidney</li>
+            <li>InstallNaturalLiver</li>
+            <li>RemoveBodyPart</li>
+            <li>Euthanize</li>
+        </recipes>
       <wildBiomes>
         <li>XericShrubland</li>
       </wildBiomes>
