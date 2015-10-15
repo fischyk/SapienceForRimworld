@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <PawnKindDefs>
 	<PawnKindDef>
-		<defName>Bonobone</defName>
+		<defName>Bonobon</defName>
 		<label>Bonobon</label>
 		<race>Bonobon</race>
 		<wildSpawn_spawnWild>true</wildSpawn_spawnWild>
