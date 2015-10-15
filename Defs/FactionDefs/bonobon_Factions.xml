@@ -16,7 +16,8 @@
       <min>-40</min>
       <max>40</max>
     </startingGoodwill>
-		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<factionNameMaker>NamerFactionTribal</factionNameMaker>
+        <pawnNameMaker>NamerPersonTribal</pawnNameMaker>
 		<techLevel>Neolithic</techLevel>
 		<backstoryCategory>Tribal</backstoryCategory>
 		<hairTags>
