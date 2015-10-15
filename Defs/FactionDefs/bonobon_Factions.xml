@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <FactionDefs>
 
 
@@ -8,7 +8,7 @@
 		<label>bonobon tribe</label>
     <description>A bonobon tribe of</description>
     <pawnsPlural>bonobons</pawnsPlural>
-    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <requiredCountAtGameStart>2</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <raidCommonality>100</raidCommonality>
     <canSiege>true</canSiege>
@@ -51,3 +51,5 @@
     <homeIconPath>World/FactionHomes/DefaultHome</homeIconPath>
     <homeIconColor>(150,150,255)</homeIconColor>
   </FactionDef>
+  
+</FactionDefs>
