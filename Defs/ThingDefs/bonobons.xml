@@ -127,25 +127,7 @@
             <hediffGiverSets>
                 <li>OrganicStandard</li>
             </hediffGiverSets>
-        <recipes>
-            <li>InstallPowerClaw</li>
-            <li>InstallScytherBlade</li>
-            <li>InstallBionicEye</li>
-            <li>InstallBionicArm</li>
-            <li>InstallBionicLeg</li>
-            <li>InstallSimpleProstheticArm</li>
-            <li>InstallSimpleProstheticLeg</li>
-            <li>InstallPegLeg</li>
-            <li>InstallDenture</li>
-            <li>InstallJoywire</li>
-            <li>InstallPainstopper</li>
-            <li>InstallNaturalHeart</li>
-            <li>InstallNaturalLung</li>
-            <li>InstallNaturalKidney</li>
-            <li>InstallNaturalLiver</li>
-            <li>RemoveBodyPart</li>
-            <li>Euthanize</li>
-        </recipes>
+
 
 		</race>
 	</ThingDef>
