@@ -61,7 +61,7 @@
         </verbs>
 		<targetHitChanceFactor>0.5</targetHitChanceFactor>
 		<race>
-			<thinkTree>Humanoid</thinkTree>
+			<thinkTree>Humanlike</thinkTree>
             <intelligence>Humanlike</intelligence>
             <diet>Omnivorous</diet>
             <makesFootprints>true</makesFootprints>
