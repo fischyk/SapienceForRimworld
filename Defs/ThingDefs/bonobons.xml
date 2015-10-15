@@ -23,14 +23,15 @@
         <drawGUIOverlay>true</drawGUIOverlay>
     </ThingDef>
 <!-- Edit this bit -->
-	<ThingDef Name="Bonobon" Abstract="true" ParentName="BasePawn">
+	<ThingDef ParentName="BasePawn">
 		<defName>Bonobon</defName>
 		<label>Bonobon</label>
-		<overdraw>true</overdraw>
-        <statBases>
-            <MarketValue>1750</MarketValue>
-            <MoveSpeed>4.61</MoveSpeed>
-            <Flammability>1.0</Flammability>
+		<description>After their great ape ancestors hijacked a spaceship to escape a human science lab, the Bonobons have spread across the known universe, settling down primatively.</description>
+       <uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>
+       <statBases>
+            <MarketValue>2550</MarketValue>
+            <MoveSpeed>6.91</MoveSpeed>
+            <Flammability>2.0</Flammability>
             <ComfyTemperatureMin>12</ComfyTemperatureMin>
             <ComfyTemperatureMax>32</ComfyTemperatureMax>
             <LeatherAmount>20</LeatherAmount>
@@ -49,6 +50,20 @@
                 <meleeDamageBaseAmount>5</meleeDamageBaseAmount>
                 <meleeDamageDef>Blunt</meleeDamageDef>
                 <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <verbClass>Verb_MeleeAttack</verbClass>
+                <defaultCooldownTicks>150</defaultCooldownTicks>
+                <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
+                <meleeDamageDef>Blunt</meleeDamageDef>
+                <linkedBodyPartsGroup>LeftFoot</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <verbClass>Verb_MeleeAttack</verbClass>
+                <defaultCooldownTicks>150</defaultCooldownTicks>
+                <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
+                <meleeDamageDef>Blunt</meleeDamageDef>
+                <linkedBodyPartsGroup>RightFoot</linkedBodyPartsGroup>
             </li>
         </verbs>
 		<targetHitChanceFactor>0.5</targetHitChanceFactor>
