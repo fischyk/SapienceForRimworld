@@ -2,8 +2,8 @@
 <FactionDefs>
 
   <FactionDef>
-		<defName>Bonobon</defName>
-		<label>bonobon tribe</label>
+    <defName>Bonobon</defName>
+    <label>bonobon tribe</label>
     <description>A bonobon tribe of</description>
     <pawnsPlural>bonobons</pawnsPlural>
     <requiredCountAtGameStart>2</requiredCountAtGameStart>
