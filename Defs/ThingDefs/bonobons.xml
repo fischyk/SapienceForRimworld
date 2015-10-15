@@ -23,7 +23,7 @@
 		<drawGUIOverlay>true</drawGUIOverlay>
 	</ThingDef>
 <!-- Edit this bit -->
-	<ThingDef ParentName="BaseRace">
+	<ThingDef ParentName="BaseAnimal">
 		<defName>Bonobon</defName>
 		<label>Bonobon</label>
 		<maxHealth>125</maxHealth>
