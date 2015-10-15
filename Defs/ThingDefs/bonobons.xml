@@ -71,7 +71,7 @@
             <leatherCommonalityFactor>0.01</leatherCommonalityFactor>
             <leatherInsulation>0.95</leatherInsulation>
             <leatherMarketValue>15</leatherMarketValue>
-            <nameCategory>BonobonStandard</nameCategory>
+            <nameCategory>HumanStandard</nameCategory>
             <minFoodPreferability>DesperateOnly</minFoodPreferability>
             <body>Bonobon</body>
             <baseBodySize>1.4</baseBodySize>
