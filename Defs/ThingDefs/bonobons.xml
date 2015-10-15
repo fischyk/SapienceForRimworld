@@ -123,7 +123,6 @@
             <hediffGiverSets>
                 <li>OrganicStandard</li>
             </hediffGiverSets>
-        </race>
         <recipes>
             <li>InstallPowerClaw</li>
             <li>InstallScytherBlade</li>
@@ -143,9 +142,7 @@
             <li>RemoveBodyPart</li>
             <li>Euthanize</li>
         </recipes>
-      <wildBiomes>
-        <li>XericShrubland</li>
-      </wildBiomes>
+
       <soundWounded>Pawn_Squirrel_Wounded</soundWounded>
       <soundDeath>Pawn_Squirrel_Death</soundDeath>
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
