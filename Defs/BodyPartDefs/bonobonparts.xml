@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<BodyPartDef>
+    <defName>BonobonHead</defName>
+    <label>head</label>
+    <hitPoints>40</hitPoints>
+    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <dontSuggestAmputation>true</dontSuggestAmputation>
+</BodyPartDef>
+
+</Defs>
