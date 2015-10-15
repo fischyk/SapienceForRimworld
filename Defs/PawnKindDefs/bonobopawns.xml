@@ -4,7 +4,6 @@
 		<defName>Primative</defName>
 		<label>Primative</label>
 		<race>Bonobon</race>
-		<pointsCost>15</pointsCost>
 		<standardBodyGraphicPath>Things/Pawn/BonobonGraphics</standardBodyGraphicPath>
 		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
 		<wildSpawn_EcoSystemWeight>1</wildSpawn_EcoSystemWeight>
