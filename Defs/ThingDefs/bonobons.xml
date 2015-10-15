@@ -63,9 +63,6 @@
 		<race>
 			<thinkTree>Humanoid</thinkTree>
             <intelligence>Humanlike</intelligence>
-			<walkSpeed>1.7</walkSpeed>
-			<meleeDamage>20</meleeDamage>
-			<hungerThreshold>180</hungerThreshold>
             <diet>Omnivorous</diet>
             <makesFootprints>true</makesFootprints>
             <isFlesh>true</isFlesh>
