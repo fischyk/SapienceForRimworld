@@ -1,27 +1,28 @@
 <!-- Don't edit this bit -->
+<?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
- 
- 
- 
-	<ThingDef Name="BasePawn" Abstract="True">
-		<eType>Pawn </eType>
-		<thingClass>Pawn</thingClass>
-		<category>Pawn</category>
-		<selectable>true</selectable>
-		<tickerType>Normal</tickerType>
-		<altitudeLayer>Pawn</altitudeLayer>
-		<useStandardHealth>false</useStandardHealth>
-		<flammability>1.5</flammability>
-		<hasTooltip>true</hasTooltip>
-		<soundBulletHit>BulletImpactFlesh</soundBulletHit>
-		<inspectorTabs>
-			<li>ITab_Pawn_Thoughts</li>
-			<li>ITab_Pawn_Needs</li>
-			<li>ITab_Pawn_Prisoner</li>
-			<li>ITab_Pawn_Character</li>
-		</inspectorTabs>
-		<drawGUIOverlay>true</drawGUIOverlay>
-	</ThingDef>
+    
+    
+    
+    <ThingDef Name="BasePawn" Abstract="True">
+        <eType>Pawn </eType>
+        <thingClass>Pawn</thingClass>
+        <category>Pawn</category>
+        <selectable>true</selectable>
+        <tickerType>Normal</tickerType>
+        <altitudeLayer>Pawn</altitudeLayer>
+        <useStandardHealth>false</useStandardHealth>
+        <flammability>1.0</flammability>
+        <hasTooltip>true</hasTooltip>
+        <soundBulletHit>BulletImpactFlesh</soundBulletHit>
+        <inspectorTabs>
+            <li>ITab_Pawn_Thoughts</li>
+            <li>ITab_Pawn_Needs</li>
+            <li>ITab_Pawn_Prisoner</li>
+            <li>ITab_Pawn_Character</li>
+        </inspectorTabs>
+        <drawGUIOverlay>true</drawGUIOverlay>
+    </ThingDef>
 <!-- Edit this bit -->
 	<ThingDef ParentName="BaseAnimal">
 		<defName>Bonobon</defName>
