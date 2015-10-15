@@ -3,7 +3,7 @@
 
 
   <BodyDef>
-    <defName>Bonobon</defName>
+    <defName>BonobonBody</defName>
     <label>bonobon</label>
     <corePart>
       <def>Torso</def>

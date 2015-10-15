@@ -72,7 +72,7 @@
             <leatherMarketValue>15</leatherMarketValue>
             <nameCategory>HumanStandard</nameCategory>
             <minFoodPreferability>DesperateOnly</minFoodPreferability>
-            <body>Bonobon</body>
+            <body>BonobonBody</body>
             <baseBodySize>2.75</baseBodySize>
             <gestationPeriodDays>110</gestationPeriodDays>
             <litterSizeCurve>
