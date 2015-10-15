@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FactionDefs>
+
+
+  <!-- Bonobon Village -->
+  <FactionDef>
+		<defName>Bonobon</defName>
+		<label>bonobon tribe</label>
+    <description>A bonobon tribe of</description>
+    <pawnsPlural>bonobons</pawnsPlural>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <raidCommonality>100</raidCommonality>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Chief</leaderTitle>
+    <startingGoodwill>
+      <min>-40</min>
+      <max>40</max>
+    </startingGoodwill>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<techLevel>Neolithic</techLevel>
+		<backstoryCategory>Tribal</backstoryCategory>
+		<hairTags>
+			<li>Rural</li>
+		</hairTags>
+    <naturalColonyGoodwill>
+      <min>-60</min>
+      <max>0</max>
+    </naturalColonyGoodwill>
+    <pawnGroupMakers>
+      <li>
+        <options>
+          <li>
+            <selectionWeight>50</selectionWeight>
+            <kind>Tribessub</kind>
+          </li>
+          <li>
+            <selectionWeight>250</selectionWeight>
+            <kind>Tribesbon</kind>
+          </li>
+          <li>
+            <selectionWeight>250</selectionWeight>
+            <kind>Alpha</kind>
+          </li>
+          <li>
+          </li>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <homeIconPath>World/FactionHomes/DefaultHome</homeIconPath>
+    <homeIconColor>(150,150,255)</homeIconColor>
+  </FactionDef>
