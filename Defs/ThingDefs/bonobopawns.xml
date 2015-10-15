@@ -1,0 +1,16 @@
+<PawnKindDefs>
+	<PawnKindDef>
+		<defName>Primative</defName>
+		<label>Primative</label>
+		<race>Bonobon</race>
+		<pointsCost>15</pointsCost>
+		<standardBodyGraphicPath>Things/BonobonGraphics</standardBodyGraphicPath>
+		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+		<wildSpawn_EcoSystemWeight>1</wildSpawn_EcoSystemWeight>
+		<wildSpawn_GroupSizeRange>
+			<min>0</min>
+			<max>25</max>
+		</wildSpawn_GroupSizeRange>
+		<wildSpawn_SelectionWeight>0.5</wildSpawn_SelectionWeight>
+	</PawnKindDef>
+</PawnKindDefs>

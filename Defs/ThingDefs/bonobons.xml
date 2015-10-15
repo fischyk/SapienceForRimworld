@@ -1,0 +1,55 @@
+<!-- Don't edit this bit -->
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+ 
+ 
+ 
+	<ThingDef Name="BonobonPawn" Abstract="True">
+		<eType>Pawn </eType>
+		<thingClass>Pawn</thingClass>
+		<category>Pawn</category>
+		<selectable>true</selectable>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Pawn</altitudeLayer>
+		<useStandardHealth>false</useStandardHealth>
+		<flammability>1.0</flammability>
+		<hasTooltip>true</hasTooltip>
+		<soundBulletHit>BulletImpactFlesh</soundBulletHit>
+		<inspectorTabs>
+			<li>ITab_Pawn_Thoughts</li>
+			<li>ITab_Pawn_Needs</li>
+			<li>ITab_Pawn_Prisoner</li>
+			<li>ITab_Pawn_Character</li>
+		</inspectorTabs>
+		<drawGUIOverlay>true</drawGUIOverlay>
+	</ThingDef>
+<!-- Edit this bit -->
+	<ThingDef ParentName="BonobonRace">
+		<defName>Bonobon</defName>
+		<label>Bonobon/label>
+		<maxHealth>125</maxHealth>
+		<overdraw>true</overdraw>
+		<sunShadowInfo>
+			<baseWidth>0.5</baseWidth>
+			<baseHeight>0.8</baseHeight>
+			<tallness>0.8</tallness>
+		</sunShadowInfo>
+		<targetHitChanceFactor>0.5</targetHitChanceFactor>
+		<race>
+			<thinkTree>Humanoid</thinkTree>
+			<walkSpeed>1.7</walkSpeed>
+			<meleeDamage>20</meleeDamage>
+			<hungerThreshold>180</hungerThreshold>
+			<bodySize>1.1</bodySize>
+			      <diet>Omnivorous</diet>
+      <wildBiomes>
+        <li>XericShrubland</li>
+      </wildBiomes>
+      <soundWounded>Pawn_Squirrel_Wounded</soundWounded>
+      <soundDeath>Pawn_Squirrel_Death</soundDeath>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+	</ThingDef>
+     </ThingDefs>
