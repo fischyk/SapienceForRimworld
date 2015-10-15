@@ -73,7 +73,7 @@
             <nameCategory>HumanStandard</nameCategory>
             <minFoodPreferability>DesperateOnly</minFoodPreferability>
             <body>Bonobon</body>
-            <baseBodySize>1.4</baseBodySize>
+            <baseBodySize>2.75</baseBodySize>
             <gestationPeriodDays>110</gestationPeriodDays>
             <litterSizeCurve>
                 <points>
