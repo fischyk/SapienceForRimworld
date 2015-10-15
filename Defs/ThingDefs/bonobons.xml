@@ -12,7 +12,7 @@
 		<tickerType>Normal</tickerType>
 		<altitudeLayer>Pawn</altitudeLayer>
 		<useStandardHealth>false</useStandardHealth>
-		<flammability>1.0</flammability>
+		<flammability>1.5</flammability>
 		<hasTooltip>true</hasTooltip>
 		<soundBulletHit>BulletImpactFlesh</soundBulletHit>
 		<inspectorTabs>
