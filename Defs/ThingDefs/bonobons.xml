@@ -148,11 +148,6 @@
             <li>Euthanize</li>
         </recipes>
 
-      <soundWounded>Pawn_Squirrel_Wounded</soundWounded>
-      <soundDeath>Pawn_Squirrel_Death</soundDeath>
-      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
 	</ThingDef>
 </ThingDefs>
