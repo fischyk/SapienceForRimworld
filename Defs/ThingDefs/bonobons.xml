@@ -23,7 +23,7 @@
         <drawGUIOverlay>true</drawGUIOverlay>
     </ThingDef>
 <!-- Edit this bit -->
-	<ThingDef Name="BaseApe" Abstract="true" ParentName="BasePawn">
+	<ThingDef Name="Bonobon" Abstract="true" ParentName="BasePawn">
 		<defName>Bonobon</defName>
 		<label>Bonobon</label>
 		<overdraw>true</overdraw>
