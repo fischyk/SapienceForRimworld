@@ -6,7 +6,7 @@
     <label>head</label>
     <hitPoints>40</hitPoints>
     <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
-    <skinCovered>false</skinCovered>
+    <skinCovered>true</skinCovered>
     <dontSuggestAmputation>true</dontSuggestAmputation>
 </BodyPartDef>
 

@@ -10,7 +10,7 @@
     <canMakeRandomly>true</canMakeRandomly>
     <raidCommonality>80</raidCommonality>
     <canStageAttacks>true</canStageAttacks>
-    <leaderTitle>Chief</leaderTitle>
+    <leaderTitle>Alpha</leaderTitle>
     <startingGoodwill>
       <min>-40</min>
       <max>40</max>
