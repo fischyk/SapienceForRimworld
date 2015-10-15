@@ -1,4 +1,4 @@
-<!-- Don't edit this bit -->
+
 <ThingDefs>
     
     
@@ -51,4 +51,4 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
 	</ThingDef>
-     </ThingDefs>
+</ThingDefs>
