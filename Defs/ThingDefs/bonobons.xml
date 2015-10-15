@@ -57,20 +57,7 @@
                 <meleeDamageDef>Blunt</meleeDamageDef>
                 <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
             </li>
-            <li>
-                <verbClass>Verb_MeleeAttack</verbClass>
-                <defaultCooldownTicks>150</defaultCooldownTicks>
-                <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
-                <meleeDamageDef>Blunt</meleeDamageDef>
-                <linkedBodyPartsGroup>LeftFoot</linkedBodyPartsGroup>
-            </li>
-            <li>
-                <verbClass>Verb_MeleeAttack</verbClass>
-                <defaultCooldownTicks>150</defaultCooldownTicks>
-                <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
-                <meleeDamageDef>Blunt</meleeDamageDef>
-                <linkedBodyPartsGroup>RightFoot</linkedBodyPartsGroup>
-            </li>
+
         </verbs>
 		<targetHitChanceFactor>0.5</targetHitChanceFactor>
 		<race>
