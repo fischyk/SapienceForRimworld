@@ -8,8 +8,7 @@
     <pawnsPlural>bonobons</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
-    <raidCommonality>100</raidCommonality>
-    <canSiege>true</canSiege>
+    <raidCommonality>80</raidCommonality>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>Chief</leaderTitle>
     <startingGoodwill>
@@ -25,7 +24,7 @@
 		</hairTags>
     <naturalColonyGoodwill>
       <min>-60</min>
-      <max>0</max>
+      <max>10</max>
     </naturalColonyGoodwill>
     <pawnGroupMakers>
       <li>
@@ -35,15 +34,14 @@
             <kind>Tribessub</kind>
           </li>
           <li>
-            <selectionWeight>250</selectionWeight>
+            <selectionWeight>50</selectionWeight>
             <kind>Tribesbon</kind>
           </li>
           <li>
-            <selectionWeight>250</selectionWeight>
+            <selectionWeight>50</selectionWeight>
             <kind>Alpha</kind>
           </li>
-          <li>
-          </li>
+
         </options>
       </li>
     </pawnGroupMakers>
