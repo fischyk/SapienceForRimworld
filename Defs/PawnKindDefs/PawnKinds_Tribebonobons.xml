@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <PawnKindDefs>
 
 	<PawnKindDef>
@@ -6,8 +6,8 @@
 		<label>warrior</label>
 		<race>Bonobon</race>
     <combatPower>38</combatPower>
-    <defaultFactionType>Tribe</defaultFactionType>
-		<baseRecruitDifficulty>90</baseRecruitDifficulty>
+    <defaultFactionType>BonobonTribe</defaultFactionType>
+		<baseRecruitDifficulty>55</baseRecruitDifficulty>
 		<backstoryCategory>Tribal</backstoryCategory>
     <invFoodCount>1</invFoodCount>
     <backstoryCryptosleepCommonality>0.01</backstoryCryptosleepCommonality>
@@ -38,12 +38,12 @@
 		<label>archer</label>
 		<race>Bonobon</race>
     <combatPower>48</combatPower>
-    <defaultFactionType>Tribe</defaultFactionType>
-		<baseRecruitDifficulty>90</baseRecruitDifficulty>
+    <defaultFactionType>BonobonTribe</defaultFactionType>
+		<baseRecruitDifficulty>60</baseRecruitDifficulty>
 		<backstoryCategory>Tribal</backstoryCategory>
     <invFoodCount>1</invFoodCount>
     <backstoryCryptosleepCommonality>0.01</backstoryCryptosleepCommonality>
-    <maxGenerationAge>40</maxGenerationAge>
+    <maxGenerationAge>50</maxGenerationAge>
     <gearHealthRange>
       <min>0.5</min>
       <max>1.8</max>
@@ -67,16 +67,16 @@
 
 	<PawnKindDef>
 		<defName>Alpha</defName>
-		<label>chief</label>
+		<label>alpha</label>
 		<race>Bonobon</race>
     <combatPower>70</combatPower>
-    <defaultFactionType>Tribe</defaultFactionType>
-		<baseRecruitDifficulty>95</baseRecruitDifficulty>
+    <defaultFactionType>BonobonTribe</defaultFactionType>
+		<baseRecruitDifficulty>60</baseRecruitDifficulty>
 		<backstoryCategory>Tribal</backstoryCategory>
     <invFoodCount>1</invFoodCount>
     <itemQuality>Superior</itemQuality>
     <backstoryCryptosleepCommonality>0.01</backstoryCryptosleepCommonality>
-    <minGenerationAge>35</minGenerationAge>
+    <minGenerationAge>48</minGenerationAge>
     <factionLeader>true</factionLeader>
     <gearHealthRange>
       <min>0.7</min>
