@@ -62,7 +62,7 @@
 		<race>
 			<thinkTree>Humanlike</thinkTree>
             <intelligence>Humanlike</intelligence>
-            <diet>Omnivorous</diet>
+            <diet>Carnivorous</diet>
             <makesFootprints>true</makesFootprints>
             <isFlesh>true</isFlesh>
             <lifeExpectancy>150</lifeExpectancy>
